@@ -233,12 +233,12 @@ function App() {
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <a className="brand" href="#home" aria-label="Daymark home">
+        <a className="brand" href="#home" aria-label="Tasker home">
           <span className="brand-mark">
             <CheckCheck size={19} strokeWidth={2.4} />
           </span>
           <span>
-            daymark<span className="brand-dot">.</span>
+            tasker<span className="brand-dot">.</span>
           </span>
         </a>
         <div className="workspace-label">WORKSPACE</div>
@@ -581,7 +581,7 @@ function SignIn({
             <CheckCheck size={19} strokeWidth={2.4} />
           </span>
           <span>
-            daymark<span className="brand-dot">.</span>
+            tasker<span className="brand-dot">.</span>
           </span>
         </a>
         <div className="auth-illustration">

@@ -1,4 +1,4 @@
-# Daymark
+# Task Management App
 
 A responsive task manager built with React, TypeScript, and Vite.
 
