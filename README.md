@@ -6,6 +6,8 @@ A responsive task manager built with React, TypeScript, and Vite.
 
 ```bash
 npm install
+npm run server
+# In a second terminal:
 npm run dev
 ```
 
@@ -17,6 +19,17 @@ Open the local URL printed by Vite. Use your name and email to enter the demo wo
 npm run build
 npm run lint
 ```
+
+## API
+
+The Express API exposes the following endpoints (started with `npm run server`):
+
+- `GET /api/tasks`
+- `POST /api/tasks`
+- `PUT /api/tasks/:id`
+- `DELETE /api/tasks/:id`
+
+Task data is held in memory for the demo, so restarting the API clears its data.
 
 ## Authentication note
 
